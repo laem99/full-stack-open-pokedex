@@ -8,7 +8,7 @@ describe('Pokedex', function () {
   it('pokemon page can be navigated to', function () {
     cy.visit('http://localhost:5000')
     cy.contains('eevee').click()
-    cy.url().should('include', 'pokemon/eevee')
+    cy.contains('eevee')
     cy.contains('anticipation')
   })
 })
