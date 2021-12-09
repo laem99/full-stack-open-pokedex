@@ -67,6 +67,6 @@ jobs:
                 text: `New version deployed to ${process.env.REPO} (${process.env.COMMIT}) by ${process.env.AUTHOR} build took ${process.env.TIME_TAKEN}`,
               }]
             }
-          env: 
-            SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-            notify_when: 'success'
+        env: 
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          notify_when: 'success'
