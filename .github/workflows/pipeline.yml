@@ -64,7 +64,7 @@ jobs:
             {
               attachments: [{
                 color: 'good',
-                text: `New version deployed to ${process.env.REPO} (${process.env.COMMIT}) by ${process.env.AUTHOR} build took ${process.env.TIME_TAKEN}`
+                text: `New version deployed to ${process.env.REPO} (${process.env.COMMIT}) by ${process.env.AUTHOR} build took ${process.env.TIME_TAKEN}`,
               }]
             }
           env: 
