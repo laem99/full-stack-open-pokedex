@@ -13,3 +13,5 @@ Start by running `npm install` inside the project folder
 `npm run eslint` to run eslint
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
+
+URL to other repo (exercise 11.21): https://github.com/laem99/anecdotes-part11
