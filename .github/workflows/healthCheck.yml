@@ -4,11 +4,6 @@ on:
   schedule:
     - cron: '0 11 * * *'
 
-on:
-    push:
-        branches:
-            - master
-
 jobs: 
   health-check:
     runs-on: ubuntu-18.04
